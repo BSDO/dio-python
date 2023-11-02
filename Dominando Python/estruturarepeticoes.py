@@ -57,22 +57,33 @@
 
 
 
-# for numero in range(100):
+# for numero in range(0,110,3):
 #     # resto da divisao ,para retorna o impar
 #     if numero % 2 == 1 :
-#         print("Pulou o numero")
+#         print("----")
 #         continue
 
 #     print(numero)  
 
 
-numero = int(input("Digite um numero: "))
+# numero = int(input("Digite um numero: "))
 
-for percorrer in range(0,101,1):
+# for percorrer in range(0,101,1):
 
-    if percorrer == numero:
-        print("Pulamos esse numero.")
-        continue
+#     if percorrer == numero:
+#         print("Pulamos esse numero.")
+#         continue
 
-    print(f"Numeros atual :{percorrer}")
+#     print(f"Numeros atual :{percorrer}")
     
+
+import requests
+
+url = "https://cep.awesomeapi.com.br/json/02873420"
+
+payload = {}
+headers = {}
+
+response = requests.request("GET", url, headers=headers, data=payload)
+
+print(response.text)

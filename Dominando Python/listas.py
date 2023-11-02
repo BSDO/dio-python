@@ -56,7 +56,44 @@
 # print("-----------------\n")
 # print(f"A posicao do meu menor item: {listar.index(item_menor)}")
 
+# caixa_numero = []
+
+# while (True):
+#     numero = int(input("Digite um numero "))
+#     print("-------------")
+#     if(numero > 0):
+#         caixa_numero.append(numero)
+#     else:
+#         print("Zero não é aceitavel")
+#         break
+
+#     print("-------------")
+#     print(caixa_numero)
+
 #juntar listar, ordernar e cuidados especiais
 
-      
+# lista = ['tv','maça','ipad','iphone']
+# lista2 = ['tv 52p', 'iphone 11']
+# lista.extend(lista2)
+# print(f"Lista:  {lista}")
+# print("-----")
+# novo = lista + lista2
+# print(novo)
 
+#ordernar
+# lista = [1,3,9,10,0,9,39,87,25,36,14,69,69742]
+# lista.sort()
+# print(f" Lista ordernada: {lista}")
+# print("----")
+# lista.sort(reverse=True)
+# print(f" Lista ordernada: {lista}")
+
+# JOIN
+# lista = [1,3,9,10,0,9,39,87,25,36,14,69,69742]
+
+# print('-'.join(lista))
+
+# SPLIt
+# produto = 'mac , apple , samsung, tesla'
+# lista = produto.split(', ') # Separa os espaços
+# print(lista)
