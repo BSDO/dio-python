@@ -1,4 +1,4 @@
-# Estruturas condicionais em pythonb
+# Estruturas condicionais em python
 
 # saldo = 200.0
 # saque = float(input("Digite o vaalor de saque:"))
